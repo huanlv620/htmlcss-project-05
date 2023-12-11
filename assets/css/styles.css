@@ -804,3 +804,126 @@ a {
     background: #7264d6;
     box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
 }
+
+/* TESTIMONIAL */
+.testimonial {
+    margin-top: 160px;
+}
+
+.testimonial__header {
+    text-align: center;
+}
+
+.testimonial__sub-heading {
+    justify-content: center;
+}
+
+.testimonial__desc {
+    width: 435px;
+    margin: 18px auto 70px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: var(--secondary-color);
+}
+
+.testimonial__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.testimonial__item {
+    text-align: center;
+}
+
+.testimonial__chat {
+    position: relative;
+    padding: 42px 28px;
+    font-style: italic;
+    font-size: 2.2rem;
+    line-height: 1.55;
+    color: var(--secondary-color);
+    background: #fff;
+    border-radius: 8px;
+    filter: drop-shadow(0 0 1px #000);
+    transition: box-shadow 0.3s, filter 0.3s;
+}
+
+.testimonial__chat::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -44%;
+    transform: translateX(-50%);
+    display: block;
+    border: 60px solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.testimonial__chat:hover {
+    cursor: pointer;
+    box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.07);
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.07));
+}
+
+.testimonial__info {
+    margin: 66px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial__img-wrap {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #4ab5e3;
+}
+
+.testimonial__item:nth-of-type(2) .testimonial__img-wrap {
+    background: #439f90;
+}
+
+.testimonial__img {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.testimonial__name {
+    margin: 20px 0 2px;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 1.38;
+    color: #070052;
+}
+
+.testimonial__title {
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: var(--secondary-color);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 38px;
+}
+
+.controls .control__item {
+    cursor: pointer;
+    width: 22px;
+    height: 6px;
+    border: 1px solid #9b9fab;
+    border-radius: 1px;
+}
+
+.control__item--active {
+    cursor: pointer;
+    background: #7264d6;
+}
