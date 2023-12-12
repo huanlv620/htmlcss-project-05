@@ -624,6 +624,17 @@ a {
 .smart-wallet__desc {
     margin-top: 20px;
 }
+
+.smart-wallet__card {
+    width: 482px;
+    height: 322px;
+    border-radius: 20px;
+}
+
+.smart-wallet__card img {
+    width: 100%;
+}
+
 .smart-wallet__list {
     display: flex;
     flex-direction: column;
@@ -644,12 +655,6 @@ a {
     border-radius: 50%;
     margin-right: 12px;
     background: #7264d6;
-}
-
-.smart-wallet__card {
-    width: 482px;
-    height: 332px;
-    padding: 38px;
 }
 
 .smart-wallet__main-balnce {
@@ -686,7 +691,7 @@ a {
 .smart-wallet__transection-wrap {
     position: absolute;
     right: -88px;
-    top: -10px;
+    top: -48px;
     padding: 23px 13px;
     background: #fff;
     margin: initial;
