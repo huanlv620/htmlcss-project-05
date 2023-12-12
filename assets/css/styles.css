@@ -7,6 +7,11 @@
     --secondary-color: #696d76;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -502,7 +507,7 @@ a {
 
 /* WORK */
 .work {
-    margin-top: 160px;
+    padding-top: 160px;
 }
 
 .work__inner {
@@ -593,7 +598,7 @@ a {
 
 /* SMART WALLET */
 .smart-wallet {
-    margin-top: 160px;
+    padding-top: 160px;
 }
 
 .smart-wallet__inner {
@@ -937,7 +942,7 @@ a {
 
 /* Blog */
 .blog {
-    margin-top: 160px;
+    padding-top: 160px;
 }
 
 .blog__inner {
@@ -1130,7 +1135,8 @@ a {
 
 .footer__item-link,
 .footer__desc,
-.footer__contact {
+.footer__contact,
+.footer__contact-item {
     font-size: 1.8rem;
     line-height: 1.67;
     color: var(--secondary-color);
@@ -1175,10 +1181,8 @@ a {
     border-radius: 6px;
     font-size: 16px;
     line-height: 28px;
-    /* identical to box height, or 175% */
     background: transparent;
     color: #8e919a;
-
     opacity: 0.7;
 }
 

@@ -104,7 +104,7 @@
                 <div class="header__inner">
                     <!-- Logo -->
                     <div class="header__logo-wrap">
-                        <a href="#!" class="footer__item-link">
+                        <a href="#" class="footer__item-link">
                             <img
                                 src="./assets/icons/logo.svg"
                                 alt="logo"
@@ -124,13 +124,15 @@
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="#!" class="nav__link">Works</a>
+                                <a href="#work" class="nav__link">Works</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#!" class="nav__link">Features</a>
+                                <a href="#feature" class="nav__link"
+                                    >Features</a
+                                >
                             </li>
                             <li class="nav__item">
-                                <a href="#!" class="nav__link">Blog</a>
+                                <a href="#blog" class="nav__link">Blog</a>
                             </li>
                         </ul>
                     </nav>
@@ -441,7 +443,7 @@
         <!-- MAIN -->
         <main>
             <!-- Work -->
-            <section class="work">
+            <section id="work" class="work">
                 <div class="container">
                     <div class="work__inner">
                         <!-- work media -->
@@ -540,7 +542,7 @@
             </section>
 
             <!-- Smart wallet -->
-            <section class="smart-wallet">
+            <section id="feature" class="smart-wallet">
                 <div class="container">
                     <div class="smart-wallet__inner">
                         <!-- Smart wallet content -->
@@ -812,7 +814,7 @@
             </section>
 
             <!--Testimonial -->
-            <section class="testimonial">
+            <section id="testimonial" class="testimonial">
                 <div class="container">
                     <div class="testimonial__header">
                         <p class="sub-heading testimonial__sub-heading">
@@ -898,7 +900,7 @@
             </section>
 
             <!-- Blog -->
-            <section class="blog">
+            <section id="blog" class="blog">
                 <div class="container">
                     <!-- Blog Top -->
                     <div class="blog__inner">
@@ -1034,7 +1036,7 @@
             </section>
 
             <!-- App -->
-            <section class="app">
+            <section id="app" class="app">
                 <div class="container">
                     <div class="app__inner">
                         <p class="sub-heading app__sub-heading">Our App</p>
@@ -1109,12 +1111,12 @@
         </main>
 
         <!-- FOOTER -->
-        <footer class="footer">
+        <footer id="footer" class="footer">
             <div class="container">
                 <div class="footer__row">
                     <!-- Column 1 -->
                     <figure class="footer__logo-wrap">
-                        <a href="#!">
+                        <a href="#">
                             <img
                                 src="./assets/icons/logo.svg"
                                 alt=""
@@ -1207,12 +1209,18 @@
                 </div>
 
                 <div class="footer__contact">
-                    <div class="footer__contact-item footer__email">
+                    <a
+                        href="mailto: email@gmail.com"
+                        class="footer__contact-item footer__email"
+                    >
                         email@gmail.com
-                    </div>
-                    <div class="footer__contact-item footer__number">
+                    </a>
+                    <a
+                        href="tel:123456789"
+                        class="footer__contact-item footer__number"
+                    >
                         (123) 456-7890
-                    </div>
+                    </a>
                 </div>
             </div>
             <!-- footer copyright -->
