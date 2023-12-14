@@ -96,6 +96,12 @@
 
         <!-- Style CSS -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
+
+        <!-- Animation -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <!-- HEADER -->
@@ -152,13 +158,20 @@
                 <div class="hero__inner">
                     <!-- Hero content -->
                     <section class="hero__content">
-                        <p class="hero__sub-heading sub-heading">
+                        <p
+                            class="hero__sub-heading sub-heading"
+                            data-aos="fade-down"
+                            data-aos-duration="1000"
+                        >
                             Digital Smart Wallet
                         </p>
-                        <h1 class="hero__heading">
+                        <h1 class="hero__heading" data-aos="zoom-in">
                             Digital <span>Payment</span> For Everyone.
                         </h1>
-                        <p class="hero__desc section-desc">
+                        <p
+                            class="hero__desc section-desc"
+                            data-aos="fade-up-right"
+                        >
                             We bring together eveything that’s required to build
                             websites and apps that accept payments and send
                             payouts globally. We are the best platform.
@@ -183,7 +196,7 @@
 
                     <!-- Hero media -->
                     <div class="hero__media">
-                        <div class="screen-phone">
+                        <div class="screen-phone" data-aos="zoom-out-down">
                             <!-- Screen phone top -->
                             <div class="screen-phone__top"></div>
 
@@ -447,7 +460,7 @@
                 <div class="container">
                     <div class="work__inner">
                         <!-- work media -->
-                        <div class="work__media">
+                        <div class="work__media" data-aos="fade-up">
                             <figure class="work__img-wrap">
                                 <img
                                     src="./assets/img/work-01.png"
@@ -491,7 +504,10 @@
                             <p class="work__sub-heading sub-heading">
                                 Digital Smart Wallet
                             </p>
-                            <h2 class="work__heading section-heading">
+                            <h2
+                                class="work__heading section-heading"
+                                data-aos="zoom-out-left"
+                            >
                                 How It Works
                             </h2>
 
@@ -578,7 +594,10 @@
 
                         <!-- Smart wallet card -->
                         <div class="smart-wallet__card-wrap">
-                            <fieldset class="smart-wallet__card">
+                            <fieldset
+                                class="smart-wallet__card"
+                                data-aos="zoom-out-left"
+                            >
                                 <img
                                     src="./assets/img/smart-wallet-01.png"
                                     alt=""
@@ -662,6 +681,9 @@
                         <div class="work__media work-bottom__media">
                             <figure
                                 class="work__img-wrap work-bottom__img-wrap"
+                                data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"
                             >
                                 <img
                                     src="./assets/img/work-02.png"
@@ -733,7 +755,10 @@
                             <p class="work__sub-heading sub-heading">
                                 Digital Smart Wallet
                             </p>
-                            <h2 class="work__heading section-heading">
+                            <h2
+                                class="work__heading section-heading"
+                                data-aos="fade-left"
+                            >
                                 Transfer and Deposite Your Money Anytime
                             </h2>
 
@@ -793,7 +818,10 @@
                                         great online bank.
                                     </p>
                                     <div class="testimonial__info">
-                                        <figure class="testimonial__img-wrap">
+                                        <figure
+                                            class="testimonial__img-wrap"
+                                            data-aos="zoom-in"
+                                        >
                                             <img
                                                 src="./assets/img/testimonial-01.png"
                                                 alt=""
@@ -820,7 +848,10 @@
                                         great online bank.
                                     </p>
                                     <div class="testimonial__info">
-                                        <figure class="testimonial__img-wrap">
+                                        <figure
+                                            class="testimonial__img-wrap"
+                                            data-aos="zoom-in"
+                                        >
                                             <img
                                                 src="./assets/img/testimonial-02.png"
                                                 alt=""
@@ -879,7 +910,10 @@
                         <!-- Item 1 -->
                         <article class="blog-item">
                             <a href="#!">
-                                <figure class="blog-item__img-wrap">
+                                <figure
+                                    class="blog-item__img-wrap"
+                                    data-aos="zoom-in"
+                                >
                                     <img
                                         src="./assets/img/blog-01.png"
                                         alt=""
@@ -906,7 +940,10 @@
                         <!-- Item 2 -->
                         <article class="blog-item">
                             <a href="#!">
-                                <figure class="blog-item__img-wrap">
+                                <figure
+                                    class="blog-item__img-wrap"
+                                    data-aos="zoom-in"
+                                >
                                     <img
                                         src="./assets/img/blog-02.png"
                                         alt=""
@@ -933,7 +970,10 @@
                         <!-- Item 3 -->
                         <article class="blog-item">
                             <a href="#!">
-                                <figure class="blog-item__img-wrap">
+                                <figure
+                                    class="blog-item__img-wrap"
+                                    data-aos="zoom-in"
+                                >
                                     <img
                                         src="./assets/img/blog-03.png"
                                         alt=""
@@ -960,7 +1000,10 @@
                         <!-- Item 4 -->
                         <article class="blog-item">
                             <a href="#!">
-                                <figure class="blog-item__img-wrap">
+                                <figure
+                                    class="blog-item__img-wrap"
+                                    data-aos="zoom-in"
+                                >
                                     <img
                                         src="./assets/img/blog-04.png"
                                         alt=""
@@ -1184,5 +1227,10 @@
                 <p>© 2020 Ligft Media All rights reserved.</p>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
